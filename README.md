@@ -1,5 +1,7 @@
 **AtliQ Tees: Talk to a Database**
 
+![app img](images/image.png)
+
 This is an end to end LLM project based on Google gemini and Langchain. We are building a system that can talk to MySQL database. User asks questions in a natural language and the system generates answers by converting those questions to an SQL query and then executing that query on MySQL database. AtliQ Tees is a T-shirt store where they maintain their inventory, sales and discounts data in MySQL database. A store manager will may ask questions such as,
 
 How many white color Adidas t shirts do we have left in the stock?
