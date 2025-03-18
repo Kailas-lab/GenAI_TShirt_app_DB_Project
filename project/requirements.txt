@@ -1,19 +1,12 @@
-"""
-langchain==0.0.284
-python-dotenv==1.0.0
-streamlit==1.22.0
-tiktoken==0.4.0
-faiss-cpu==1.7.4
-protobuf~=3.19.0
-langchain_experimental
-mysql-connector-python
-pymysql
-chromadb
-"""
 
-langchain==0.0.284
-python-dotenv==1.0.0
-streamlit==1.22.0
+
+streamlit
+langchain==0.3.20
+langchain-community==0.3.19
+langchain-core==0.3.45
+langsmith==0.1.125
+tiktoken==0.7
+
 langchain_experimental
 mysql-connector-python
 pymysql
