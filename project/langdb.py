@@ -20,9 +20,15 @@ llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash", google_api_key=api_key, t
 
 def get_few_shot_db_chain():
     print("Initializing database connection...")  # Debugging step
-    db_user = "root"
-    db_password = "root"
-    db_host = "localhost"
+   
+    #db_user = "root"
+    #db_password = "root"
+    #db_host = "localhost"
+    #db_name = "atliq_tshirts"
+
+    db_user = "admin"
+    db_password = "admin123"
+    db_host = "tshirtdb.c7a0ge8ccl27.ap-south-1.rds.amazonaws.com"
     db_name = "atliq_tshirts"
 
     try:
